@@ -34,9 +34,9 @@ export class MembersPage {
   ionViewDidLoad() {
     //console.log('ionViewDidLoad MembersPage');
     //console.log(this.navParams.get('lastName'));
-    //this.myUsername = this.navParams.get('username');
-    //this.myFirstName = this.navParams.get('firstName');
-    //this.myLastName = this.navParams.get('lastName');
+    this.myUsername = this.navParams.get('username');
+    this.myFirstName = this.navParams.get('firstName');
+    this.myLastName = this.navParams.get('lastName');
   }
 
   logOut() {
