@@ -1,0 +1,43 @@
+<ion-header>
+  <ion-navbar>
+    <ion-title>
+      Register
+    </ion-title>
+  </ion-navbar>
+</ion-header>
+<ion-content padding>
+  <!-- start of grid -->
+  <ion-grid>
+    <!-- start of row -->
+    <ion-row justify-content-center align-items-center>
+      <!-- columns -->
+      <ion-col col-5 col-md-5 col-lg-5 text-center>
+        <h1>Register <ion-icon name="person"></ion-icon></h1>
+      </ion-col>
+      <ion-col col-8 col-md-8 col-lg-8 text-center>
+        <!-- start of list -->
+        <ion-list no-line>
+          <ion-item>
+            <ion-input round type="text" placeholder="Enter desired username" #username></ion-input>
+          </ion-item>
+          <ion-item>
+            <ion-input round type="password" placeholder="Enter Your Password Here" #password></ion-input>
+            <span>{{passwordErr}}</span>
+          </ion-item>
+          <ion-item>
+            <ion-input round type="password" placeholder="Confirm Password" #cPassword></ion-input>
+            <span>{{cpasswordErr}}</span>
+          </ion-item>
+          <ion-item>
+            <ion-input round type="text" placeholder="First Name" #firstName></ion-input>
+          </ion-item>
+          <ion-item>
+            <ion-input round type="text" placeholder="Last Name" #lastName></ion-input>
+          </ion-item>
+        </ion-list> <!-- end of list -->
+        <button ion-button round outline block (click)="Register()">Register</button>
+      </ion-col>
+      <!-- end of columns -->
+    </ion-row> <!-- end of row -->
+  </ion-grid> <!-- end of grid -->
+</ion-content>

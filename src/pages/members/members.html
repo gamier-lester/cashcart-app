@@ -1,0 +1,47 @@
+<!--
+  Generated template for the MembersPage page.
+
+  See http://ionicframework.com/docs/components/#navigation for more info on
+  Ionic pages and navigation.
+-->
+<ion-header>
+
+  <ion-navbar hideBackButton>
+  	<ion-title>
+      Members Page
+    </ion-title>
+  </ion-navbar>
+
+</ion-header>
+
+<ion-content padding>
+  <!-- start of grid -->
+  <ion-grid>
+    <!-- start of row -->
+    <ion-row justify-content-center align-items-center>
+      <!-- start of columns -->
+      <ion-col col-sm-12 col-md-12 col-lg-12 class="welcome">
+        <h1>Welcome to the Assessment App, {{myUsername}}...</h1>        
+      </ion-col>
+
+      <ion-col col-8 col-md-8 col-lg-8>
+        <ion-list inset class="info-table">
+          <ion-item>
+            <ion-label>User Name: </ion-label>
+            <ion-input type="text" disabled="true" value="{{myUsername}}" text-center></ion-input>
+          </ion-item>
+          <ion-item>
+            <ion-label>First Name: </ion-label>
+            <ion-input type="text" disabled="true" value="{{myFirstName}}" text-center></ion-input>
+          </ion-item>
+          <ion-item>
+            <ion-label>Last Name: </ion-label>
+            <ion-input type="text" disabled="true" value="{{myLastName}}" text-center></ion-input>
+          </ion-item>
+        </ion-list>        
+        <button ion-button round block (click)="logOut()">Logout</button>
+      </ion-col>
+      <!-- end of columns -->
+    </ion-row> <!-- end of row -->
+  </ion-grid> <!-- end of grid -->
+</ion-content>

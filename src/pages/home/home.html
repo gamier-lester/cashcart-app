@@ -1,14 +1,35 @@
 <ion-header>
-  <ion-navbar>
+  <ion-navbar hideBackButton>
     <ion-title>
-      Ionic Blank
+      Home
     </ion-title>
   </ion-navbar>
 </ion-header>
 
 <ion-content padding>
-  The world is your oyster.
-  <p>
-    If you get lost, the <a href="http://ionicframework.com/docs/v2">docs</a> will be your guide.
-  </p>
+  <!-- start of grid -->
+  <ion-grid>
+    <!-- start of row -->
+    <ion-row justify-content-center align-items-center>
+      <!-- columns -->
+      <ion-col col-5 col-md-5 col-lg-5 text-center>
+        <h1>Assessment App <ion-icon name="person"></ion-icon></h1>
+      </ion-col>
+
+      <ion-col col-8 col-md-8 col-lg-8 text-center>
+        <!-- start of list -->
+        <ion-list no-lines>
+          <ion-item>
+            <ion-input round type="text" placeholder="Username" #username></ion-input>
+          </ion-item>
+          <ion-item>
+            <ion-input round type="password" placeholder="Password" #password></ion-input>
+          </ion-item>
+          <button ion-button round block (click)="logIn()">Sign In</button>
+          <button ion-button round outline block (click)="signUp()">Register</button>
+        </ion-list> <!-- end of list -->     
+      </ion-col>
+      <!-- end of columns -->
+    </ion-row> <!-- end of row -->
+  </ion-grid> <!-- end of grid -->
 </ion-content>
