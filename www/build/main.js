@@ -41,9 +41,9 @@ var MembersPage = /** @class */ (function () {
     MembersPage.prototype.ionViewDidLoad = function () {
         //console.log('ionViewDidLoad MembersPage');
         //console.log(this.navParams.get('lastName'));
-        //this.myUsername = this.navParams.get('username');
-        //this.myFirstName = this.navParams.get('firstName');
-        //this.myLastName = this.navParams.get('lastName');
+        this.myUsername = this.navParams.get('username');
+        this.myFirstName = this.navParams.get('firstName');
+        this.myLastName = this.navParams.get('lastName');
     };
     MembersPage.prototype.logOut = function () {
         this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_2__home_home__["a" /* HomePage */]);
