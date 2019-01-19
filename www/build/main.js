@@ -1,76 +1,49 @@
-webpackJsonp([2],{
+webpackJsonp([0],{
 
-/***/ 101:
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
+/***/ 110:
+/***/ (function(module, exports) {
 
-"use strict";
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return MembersPage; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(18);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__home_home__ = __webpack_require__(46);
-var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
-    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
-    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
-    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
-    return c > 3 && r && Object.defineProperty(target, key, r), r;
-};
-var __metadata = (this && this.__metadata) || function (k, v) {
-    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
-};
-
-
-
-/**
- * Generated class for the MembersPage page.
- *
- * See https://ionicframework.com/docs/components/#navigation for more info on
- * Ionic pages and navigation.
- */
-var MembersPage = /** @class */ (function () {
-    function MembersPage(navCtrl, navParams) {
-        this.navCtrl = navCtrl;
-        this.navParams = navParams;
-        var usernamez = navParams.get('username');
-        var firstNamez = navParams.get('firstName');
-        var lastNamez = navParams.get('lastName');
-        console.log(usernamez);
-        console.log(firstNamez);
-        console.log(lastNamez);
-        //this.memberUsername = 'member';
-    }
-    MembersPage.prototype.ionViewDidLoad = function () {
-        //console.log('ionViewDidLoad MembersPage');
-        //console.log(this.navParams.get('lastName'));
-        this.myUsername = this.navParams.get('username');
-        this.myFirstName = this.navParams.get('firstName');
-        this.myLastName = this.navParams.get('lastName');
-    };
-    MembersPage.prototype.logOut = function () {
-        this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_2__home_home__["a" /* HomePage */]);
-    };
-    MembersPage = __decorate([
-        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
-            selector: 'page-members',template:/*ion-inline-start:"/opt/lampp/htdocs/cc-act/src/pages/members/members.html"*/'<!--\n  Generated template for the MembersPage page.\n\n  See http://ionicframework.com/docs/components/#navigation for more info on\n  Ionic pages and navigation.\n-->\n<ion-header>\n\n  <ion-navbar hideBackButton>\n  	<ion-title>\n      Members Page\n    </ion-title>\n  </ion-navbar>\n\n</ion-header>\n\n<ion-content padding>\n  <!-- start of grid -->\n  <ion-grid>\n    <!-- start of row -->\n    <ion-row justify-content-center align-items-center>\n      <!-- start of columns -->\n      <ion-col col-sm-12 col-md-12 col-lg-12 class="welcome">\n        <h1>Welcome to the Assessment App, {{myUsername}}...</h1>        \n      </ion-col>\n\n      <ion-col col-8 col-md-8 col-lg-8>\n        <ion-list inset class="info-table">\n          <ion-item>\n            <ion-label>User Name: </ion-label>\n            <ion-input type="text" disabled="true" value="{{myUsername}}" text-center></ion-input>\n          </ion-item>\n          <ion-item>\n            <ion-label>First Name: </ion-label>\n            <ion-input type="text" disabled="true" value="{{myFirstName}}" text-center></ion-input>\n          </ion-item>\n          <ion-item>\n            <ion-label>Last Name: </ion-label>\n            <ion-input type="text" disabled="true" value="{{myLastName}}" text-center></ion-input>\n          </ion-item>\n        </ion-list>        \n        <button ion-button round block (click)="logOut()">Logout</button>\n      </ion-col>\n      <!-- end of columns -->\n    </ion-row> <!-- end of row -->\n  </ion-grid> <!-- end of grid -->\n</ion-content>\n'/*ion-inline-end:"/opt/lampp/htdocs/cc-act/src/pages/members/members.html"*/,
-        }),
-        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["g" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["h" /* NavParams */]])
-    ], MembersPage);
-    return MembersPage;
-}());
-
-//# sourceMappingURL=members.js.map
+function webpackEmptyAsyncContext(req) {
+	// Here Promise.resolve().then() is used instead of new Promise() to prevent
+	// uncatched exception popping up in devtools
+	return Promise.resolve().then(function() {
+		throw new Error("Cannot find module '" + req + "'.");
+	});
+}
+webpackEmptyAsyncContext.keys = function() { return []; };
+webpackEmptyAsyncContext.resolve = webpackEmptyAsyncContext;
+module.exports = webpackEmptyAsyncContext;
+webpackEmptyAsyncContext.id = 110;
 
 /***/ }),
 
-/***/ 102:
+/***/ 152:
+/***/ (function(module, exports) {
+
+function webpackEmptyAsyncContext(req) {
+	// Here Promise.resolve().then() is used instead of new Promise() to prevent
+	// uncatched exception popping up in devtools
+	return Promise.resolve().then(function() {
+		throw new Error("Cannot find module '" + req + "'.");
+	});
+}
+webpackEmptyAsyncContext.keys = function() { return []; };
+webpackEmptyAsyncContext.resolve = webpackEmptyAsyncContext;
+module.exports = webpackEmptyAsyncContext;
+webpackEmptyAsyncContext.id = 152;
+
+/***/ }),
+
+/***/ 196:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return RegisterPage; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(18);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__home_home__ = __webpack_require__(46);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__angular_http__ = __webpack_require__(78);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4_rxjs_add_operator_map__ = __webpack_require__(155);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__home_home__ = __webpack_require__(50);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__angular_http__ = __webpack_require__(100);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4_rxjs_add_operator_map__ = __webpack_require__(197);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4_rxjs_add_operator_map___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_4_rxjs_add_operator_map__);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
@@ -196,9 +169,9 @@ var RegisterPage = /** @class */ (function () {
     ], RegisterPage.prototype, "lastName", void 0);
     RegisterPage = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
-            selector: 'page-register',template:/*ion-inline-start:"/opt/lampp/htdocs/cc-act/src/pages/register/register.html"*/'<ion-header>\n  <ion-navbar>\n    <ion-title>\n      Register\n    </ion-title>\n  </ion-navbar>\n</ion-header>\n<ion-content padding>\n  <!-- start of grid -->\n  <ion-grid>\n    <!-- start of row -->\n    <ion-row justify-content-center align-items-center>\n      <!-- columns -->\n      <ion-col col-5 col-md-5 col-lg-5 text-center>\n        <h1>Register <ion-icon name="person"></ion-icon></h1>\n      </ion-col>\n      <ion-col col-8 col-md-8 col-lg-8 text-center>\n        <!-- start of list -->\n        <ion-list no-line>\n          <ion-item>\n            <ion-input round type="text" placeholder="Enter desired username" #username></ion-input>\n          </ion-item>\n          <ion-item>\n            <ion-input round type="password" placeholder="Enter Your Password Here" #password></ion-input>\n            <span>{{passwordErr}}</span>\n          </ion-item>\n          <ion-item>\n            <ion-input round type="password" placeholder="Confirm Password" #cPassword></ion-input>\n            <span>{{cpasswordErr}}</span>\n          </ion-item>\n          <ion-item>\n            <ion-input round type="text" placeholder="First Name" #firstName></ion-input>\n          </ion-item>\n          <ion-item>\n            <ion-input round type="text" placeholder="Last Name" #lastName></ion-input>\n          </ion-item>\n        </ion-list> <!-- end of list -->\n        <button ion-button round outline block (click)="Register()">Register</button>\n      </ion-col>\n      <!-- end of columns -->\n    </ion-row> <!-- end of row -->\n  </ion-grid> <!-- end of grid -->\n</ion-content>\n'/*ion-inline-end:"/opt/lampp/htdocs/cc-act/src/pages/register/register.html"*/,
+            selector: 'page-register',template:/*ion-inline-start:"/opt/lampp/htdocs/cc-act/src/pages/register/register.html"*/'<ion-header>\n  <ion-navbar>\n    <ion-title>\n      Register\n    </ion-title>\n  </ion-navbar>\n</ion-header>\n<ion-content padding>\n  <!-- start of grid -->\n  <ion-grid>\n    <!-- start of row -->\n    <ion-row justify-content-center align-items-center>\n      <!-- columns -->\n      <ion-col col-5 col-md-5 col-lg-5 text-center>\n        <h1>Register <ion-icon name="person"></ion-icon></h1>\n      </ion-col>\n      <ion-col col-12 col-md-12 col-lg-8 text-center>\n        <!-- start of list -->\n        <ion-list no-line>\n          <ion-item>\n            <ion-input round type="text" placeholder="Enter desired username" #username></ion-input>\n          </ion-item>\n          <ion-item>\n            <ion-input round type="password" placeholder="Enter Your Password Here" #password></ion-input>\n            <span>{{passwordErr}}</span>\n          </ion-item>\n          <ion-item>\n            <ion-input round type="password" placeholder="Confirm Password" #cPassword></ion-input>\n            <span>{{cpasswordErr}}</span>\n          </ion-item>\n          <ion-item>\n            <ion-input round type="text" placeholder="First Name" #firstName></ion-input>\n          </ion-item>\n          <ion-item>\n            <ion-input round type="text" placeholder="Last Name" #lastName></ion-input>\n          </ion-item>\n        </ion-list> <!-- end of list -->\n        <button ion-button round outline block (click)="Register()">Register</button>\n      </ion-col>\n      <!-- end of columns -->\n    </ion-row> <!-- end of row -->\n  </ion-grid> <!-- end of grid -->\n</ion-content>\n'/*ion-inline-end:"/opt/lampp/htdocs/cc-act/src/pages/register/register.html"*/,
         }),
-        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["g" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["h" /* NavParams */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["a" /* AlertController */], __WEBPACK_IMPORTED_MODULE_3__angular_http__["a" /* Http */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* LoadingController */]])
+        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["g" /* NavParams */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["a" /* AlertController */], __WEBPACK_IMPORTED_MODULE_3__angular_http__["a" /* Http */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["e" /* LoadingController */]])
     ], RegisterPage);
     return RegisterPage;
 }());
@@ -207,49 +180,64 @@ var RegisterPage = /** @class */ (function () {
 
 /***/ }),
 
-/***/ 112:
-/***/ (function(module, exports) {
+/***/ 198:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
 
-function webpackEmptyAsyncContext(req) {
-	// Here Promise.resolve().then() is used instead of new Promise() to prevent
-	// uncatched exception popping up in devtools
-	return Promise.resolve().then(function() {
-		throw new Error("Cannot find module '" + req + "'.");
-	});
-}
-webpackEmptyAsyncContext.keys = function() { return []; };
-webpackEmptyAsyncContext.resolve = webpackEmptyAsyncContext;
-module.exports = webpackEmptyAsyncContext;
-webpackEmptyAsyncContext.id = 112;
-
-/***/ }),
-
-/***/ 154:
-/***/ (function(module, exports, __webpack_require__) {
-
-var map = {
-	"../pages/members/members.module": [
-		272,
-		1
-	],
-	"../pages/register/register.module": [
-		273,
-		0
-	]
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return MembersPage; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(18);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__home_home__ = __webpack_require__(50);
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
 };
-function webpackAsyncContext(req) {
-	var ids = map[req];
-	if(!ids)
-		return Promise.reject(new Error("Cannot find module '" + req + "'."));
-	return __webpack_require__.e(ids[1]).then(function() {
-		return __webpack_require__(ids[0]);
-	});
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
 };
-webpackAsyncContext.keys = function webpackAsyncContextKeys() {
-	return Object.keys(map);
-};
-webpackAsyncContext.id = 154;
-module.exports = webpackAsyncContext;
+
+
+
+/**
+ * Generated class for the MembersPage page.
+ *
+ * See https://ionicframework.com/docs/components/#navigation for more info on
+ * Ionic pages and navigation.
+ */
+var MembersPage = /** @class */ (function () {
+    function MembersPage(navCtrl, navParams) {
+        this.navCtrl = navCtrl;
+        this.navParams = navParams;
+        var usernamez = navParams.get('username');
+        var firstNamez = navParams.get('firstName');
+        var lastNamez = navParams.get('lastName');
+        console.log(usernamez);
+        console.log(firstNamez);
+        console.log(lastNamez);
+        //this.memberUsername = 'member';
+    }
+    MembersPage.prototype.ionViewDidLoad = function () {
+        //console.log('ionViewDidLoad MembersPage');
+        //console.log(this.navParams.get('lastName'));
+        this.myUsername = this.navParams.get('username');
+        this.myFirstName = this.navParams.get('firstName');
+        this.myLastName = this.navParams.get('lastName');
+    };
+    MembersPage.prototype.logOut = function () {
+        this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_2__home_home__["a" /* HomePage */]);
+    };
+    MembersPage = __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
+            selector: 'page-members',template:/*ion-inline-start:"/opt/lampp/htdocs/cc-act/src/pages/members/members.html"*/'<!--\n  Generated template for the MembersPage page.\n\n  See http://ionicframework.com/docs/components/#navigation for more info on\n  Ionic pages and navigation.\n-->\n<ion-header>\n\n  <ion-navbar hideBackButton>\n  	<ion-title>\n      Members Page\n    </ion-title>\n  </ion-navbar>\n\n</ion-header>\n\n<ion-content padding>\n  <!-- start of grid -->\n  <ion-grid>\n    <!-- start of row -->\n    <ion-row justify-content-center align-items-center>\n      <!-- start of columns -->\n      <ion-col col-sm-12 col-md-12 col-lg-12 class="welcome">\n        <h1>Welcome to the Assessment App, {{myUsername}}...</h1>        \n      </ion-col>\n\n      <ion-col col-12 col-md-12 col-lg-8>\n        <ion-list inset class="info-table">\n          <ion-item>\n            <ion-label>User Name: </ion-label>\n            <ion-input type="text" disabled="true" value="{{myUsername}}" text-center></ion-input>\n          </ion-item>\n          <ion-item>\n            <ion-label>First Name: </ion-label>\n            <ion-input type="text" disabled="true" value="{{myFirstName}}" text-center></ion-input>\n          </ion-item>\n          <ion-item>\n            <ion-label>Last Name: </ion-label>\n            <ion-input type="text" disabled="true" value="{{myLastName}}" text-center></ion-input>\n          </ion-item>\n        </ion-list>        \n        <button ion-button round block (click)="logOut()">Logout</button>\n      </ion-col>\n      <!-- end of columns -->\n    </ion-row> <!-- end of row -->\n  </ion-grid> <!-- end of grid -->\n</ion-content>\n'/*ion-inline-end:"/opt/lampp/htdocs/cc-act/src/pages/members/members.html"*/,
+        }),
+        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["g" /* NavParams */]])
+    ], MembersPage);
+    return MembersPage;
+}());
+
+//# sourceMappingURL=members.js.map
 
 /***/ }),
 
@@ -275,13 +263,13 @@ Object(__WEBPACK_IMPORTED_MODULE_0__angular_platform_browser_dynamic__["a" /* pl
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_platform_browser__ = __webpack_require__(27);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_ionic_angular__ = __webpack_require__(18);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__ionic_native_splash_screen__ = __webpack_require__(195);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__ionic_native_status_bar__ = __webpack_require__(198);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__angular_http__ = __webpack_require__(78);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__ionic_native_splash_screen__ = __webpack_require__(192);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__ionic_native_status_bar__ = __webpack_require__(195);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__angular_http__ = __webpack_require__(100);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__app_component__ = __webpack_require__(271);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__pages_home_home__ = __webpack_require__(46);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__pages_register_register__ = __webpack_require__(102);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__pages_members_members__ = __webpack_require__(101);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__pages_home_home__ = __webpack_require__(50);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__pages_register_register__ = __webpack_require__(196);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__pages_members_members__ = __webpack_require__(198);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -312,10 +300,7 @@ var AppModule = /** @class */ (function () {
             imports: [
                 __WEBPACK_IMPORTED_MODULE_0__angular_platform_browser__["a" /* BrowserModule */],
                 __WEBPACK_IMPORTED_MODULE_2_ionic_angular__["d" /* IonicModule */].forRoot(__WEBPACK_IMPORTED_MODULE_6__app_component__["a" /* MyApp */], {}, {
-                    links: [
-                        { loadChildren: '../pages/members/members.module#MembersPageModule', name: 'MembersPage', segment: 'members', priority: 'low', defaultHistory: [] },
-                        { loadChildren: '../pages/register/register.module#RegisterPageModule', name: 'RegisterPage', segment: 'register', priority: 'low', defaultHistory: [] }
-                    ]
+                    links: []
                 }),
                 __WEBPACK_IMPORTED_MODULE_5__angular_http__["b" /* HttpModule */]
             ],
@@ -347,9 +332,9 @@ var AppModule = /** @class */ (function () {
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return MyApp; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(18);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__ionic_native_status_bar__ = __webpack_require__(198);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__ionic_native_splash_screen__ = __webpack_require__(195);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__pages_home_home__ = __webpack_require__(46);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__ionic_native_status_bar__ = __webpack_require__(195);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__ionic_native_splash_screen__ = __webpack_require__(192);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__pages_home_home__ = __webpack_require__(50);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -377,7 +362,7 @@ var MyApp = /** @class */ (function () {
     MyApp = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({template:/*ion-inline-start:"/opt/lampp/htdocs/cc-act/src/app/app.html"*/'<ion-nav [root]="rootPage"></ion-nav>\n'/*ion-inline-end:"/opt/lampp/htdocs/cc-act/src/app/app.html"*/
         }),
-        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["i" /* Platform */], __WEBPACK_IMPORTED_MODULE_2__ionic_native_status_bar__["a" /* StatusBar */], __WEBPACK_IMPORTED_MODULE_3__ionic_native_splash_screen__["a" /* SplashScreen */]])
+        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["h" /* Platform */], __WEBPACK_IMPORTED_MODULE_2__ionic_native_status_bar__["a" /* StatusBar */], __WEBPACK_IMPORTED_MODULE_3__ionic_native_splash_screen__["a" /* SplashScreen */]])
     ], MyApp);
     return MyApp;
 }());
@@ -386,18 +371,18 @@ var MyApp = /** @class */ (function () {
 
 /***/ }),
 
-/***/ 46:
+/***/ 50:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return HomePage; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(18);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__register_register__ = __webpack_require__(102);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_rxjs_add_operator_map__ = __webpack_require__(155);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__register_register__ = __webpack_require__(196);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_rxjs_add_operator_map__ = __webpack_require__(197);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_rxjs_add_operator_map___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_3_rxjs_add_operator_map__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__angular_http__ = __webpack_require__(78);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__members_members__ = __webpack_require__(101);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__angular_http__ = __webpack_require__(100);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__members_members__ = __webpack_require__(198);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -484,9 +469,9 @@ var HomePage = /** @class */ (function () {
     ], HomePage.prototype, "password", void 0);
     HomePage = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
-            selector: 'page-home',template:/*ion-inline-start:"/opt/lampp/htdocs/cc-act/src/pages/home/home.html"*/'<ion-header>\n  <ion-navbar hideBackButton>\n    <ion-title>\n      Home\n    </ion-title>\n  </ion-navbar>\n</ion-header>\n\n<ion-content padding>\n  <!-- start of grid -->\n  <ion-grid>\n    <!-- start of row -->\n    <ion-row justify-content-center align-items-center>\n      <!-- columns -->\n      <ion-col col-5 col-md-5 col-lg-5 text-center>\n        <h1>Assessment App <ion-icon name="person"></ion-icon></h1>\n      </ion-col>\n\n      <ion-col col-8 col-md-8 col-lg-8 text-center>\n        <!-- start of list -->\n        <ion-list no-lines>\n          <ion-item>\n            <ion-input round type="text" placeholder="Username" #username></ion-input>\n          </ion-item>\n          <ion-item>\n            <ion-input round type="password" placeholder="Password" #password></ion-input>\n          </ion-item>\n          <button ion-button round block (click)="logIn()">Sign In</button>\n          <button ion-button round outline block (click)="signUp()">Register</button>\n        </ion-list> <!-- end of list -->     \n      </ion-col>\n      <!-- end of columns -->\n    </ion-row> <!-- end of row -->\n  </ion-grid> <!-- end of grid -->\n</ion-content>\n'/*ion-inline-end:"/opt/lampp/htdocs/cc-act/src/pages/home/home.html"*/
+            selector: 'page-home',template:/*ion-inline-start:"/opt/lampp/htdocs/cc-act/src/pages/home/home.html"*/'<ion-header>\n  <ion-navbar hideBackButton>\n    <ion-title>\n      Home\n    </ion-title>\n  </ion-navbar>\n</ion-header>\n\n<ion-content padding>\n  <!-- start of grid -->\n  <ion-grid>\n    <!-- start of row -->\n    <ion-row justify-content-center align-items-center>\n      <!-- columns -->\n      <ion-col col-10 col-md-10 col-lg-5 text-center>\n        <h1>Assessment App <ion-icon name="person"></ion-icon></h1>\n      </ion-col>\n\n      <ion-col col-12 col-md-12 col-lg-8 text-center>\n        <!-- start of list -->\n        <ion-list no-lines>\n          <ion-item>\n            <ion-input round type="text" placeholder="Username" #username></ion-input>\n          </ion-item>\n          <ion-item>\n            <ion-input round type="password" placeholder="Password" #password></ion-input>\n          </ion-item>\n          <button ion-button round block (click)="logIn()">Sign In</button>\n          <button ion-button round outline block (click)="signUp()">Register</button>\n        </ion-list> <!-- end of list -->     \n      </ion-col>\n      <!-- end of columns -->\n    </ion-row> <!-- end of row -->\n  </ion-grid> <!-- end of grid -->\n</ion-content>\n'/*ion-inline-end:"/opt/lampp/htdocs/cc-act/src/pages/home/home.html"*/
         }),
-        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["g" /* NavController */], __WEBPACK_IMPORTED_MODULE_4__angular_http__["a" /* Http */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* LoadingController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["a" /* AlertController */]])
+        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* NavController */], __WEBPACK_IMPORTED_MODULE_4__angular_http__["a" /* Http */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["e" /* LoadingController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["a" /* AlertController */]])
     ], HomePage);
     return HomePage;
 }());
