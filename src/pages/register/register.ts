@@ -2,7 +2,7 @@ import { Component, ViewChild } from '@angular/core';
 import { IonicPage, NavController, NavParams } from 'ionic-angular';
 import { AlertController } from 'ionic-angular';
 import { HomePage } from './../home/home';
-import { Http, Headers, RequestOptions } from "@angular/http";
+import { Http } from "@angular/http";
 import { LoadingController } from 'ionic-angular';
 import 'rxjs/add/operator/map';
 
@@ -73,19 +73,19 @@ export class RegisterPage {
               .subscribe(data => {
                 this.regResult = JSON.parse(data["_body"]);
                 if(this.regResult !== "success"){
-                  var alertDisplay = this.alertCtrl.create({
+                  var alertDisplay2 = this.alertCtrl.create({
                     title: 'Something went wrong',
                     subTitle: 'Registration failed',
                     buttons: ['Dismiss']
                   });
-                  alertDisplay.present();
+                  alertDisplay2.present();
                 } else {
-                  var alertDisplay = this.alertCtrl.create({
+                  var alertDisplay2 = this.alertCtrl.create({
                     title: 'Success',
                     subTitle: 'Registration successful',
                     buttons: ['Dismiss']
                   });
-                  alertDisplay.present();
+                  alertDisplay2.present();
                   this.navCtrl.push(HomePage);
                 }
               });

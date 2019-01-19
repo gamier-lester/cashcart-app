@@ -6,7 +6,6 @@ import 'rxjs/add/operator/map';
 import { AlertController } from 'ionic-angular';
 import { Http } from '@angular/http';
 import { MembersPage } from './../members/members';
-import { enableProdMode } from '@angular/core';
 
 @Component({
   selector: 'page-home',
